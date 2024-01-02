@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ingars Neija Portfolio</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Portfolio">
+    <meta name="author" content="Ingars Neija">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Google Fonti -->
+    <link
+        href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JavaScript-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Globālais CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Tēmas CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/stils.css">
+
+</head>
+
+<body>
+    <div class="wrapper mt-lg-5">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/me.jpg" width="150" height="150" alt="" />
+                <h1 class="name">Ingars Neija</h1>
+                <h3 class="tagline">Front-End WEB Developer</h3>
+                <div class="badge-container">
+                    <!--//Badge-->
+                    <a href="https://www.credly.com/badges/28376ec0-ccb4-4216-82e0-293c276e9e8b/public_url">
+                        <img src="https://images.credly.com/size/110x110/images/e91ed0b0-842b-417f-8d2f-b07535febdda/image.png"
+                            width="50%" height="50%">
+                    </a>
+                    <!--//Badge-->
+                </div>
+
+
+            </div><!--//profila-konteiners-->
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa-solid fa-envelope"></i><a
+                            href="mailto: info@kas.id.lv">info@kas.id.lv</a></li>
+                    <li class="phone"><i class="fa-solid fa-phone"></i><a href="tel:+37128323008">+37128323008</a>
+                    </li>
+                    <li class="website"><i class="fa-solid fa-globe"></i><a href="https://kas.id.lv"
+                            target="_blank">kas.id.lv</a></li>
+                    <li class="linkedin"><i class="fa-brands fa-linkedin-in"></i><a
+                            href="https://www.linkedin.com/in/ingars-neija/"
+                            target="_blank">linkedin.com/in/ingars-neija/</a></li>
+                    <li class="github"><i class="fa-brands fa-github"></i><a href="https://github.com/QvarcY"
+                            target="_blank">github.com/QvarcY</a></li>
+                    <li class="twitter"><i class="fa-brands fa-twitter"></i><a href="https://twitter.com/_Latvian_"
+                            target="_blank">@_Latvian_</a></li>
+                    <li class="facebook"><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/QvarcY"
+                            target="_blank">facebook.com/QvarcY</a></li>
+                    <li class="facebook"><i class="fa fa-heart"></i><a href="https://www.tiktok.com/@qvarcs"
+                            target="_blank">tiktok.com/@qvarcs</a></li>
+                </ul>
+            </div><!--//Izglītības-Konteiners-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree">Business advertising service</h4>
+                    <h5 class="meta">Ogre technical school</h5>
+                    <div class="time">2003 - 2007</div>
+                </div>
+                <div class="item">
+                    <h4 class="degree">WEB Front-End Developer sertification</h4>
+                    <h5 class="meta">Meta</h5>
+                    <div class="time">2022 - 2023</div>
+                </div>
+            </div><!--//Izglītības-Konteiners-->
+
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Latvian <span class="lang-desc">(Native)</span></li>
+                    <li>English <span class="lang-desc">(Conversational)</span></li>
+                    <li>Russian <span class="lang-desc">(Conversational)</span></li>
+                </ul>
+            </div><!--//intereses-->
+
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Programming</li>
+                    <li>Web Design</li>
+                    <li>Drawing</li>
+                    <li>Photography</li>
+                    <li>Video edit</li>
+                    <li>DIY</li>
+                    <li>Cooking</li>
+                    <li>Music singing and listening</li>
+                </ul>
+            </div><!--//intereses-->
+
+        </div><!--//sānjoslas-iepakošana-->
+
+        <div class="main-wrapper">
+
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-user"></i></span>A short
+                    description about me</h2>
+                <div class="summary">
+                    <p id="typing-text"></p>
+                </div>
+
+                <script>
+                    const text = `Hi, I'm a Front-End web developer who loves to create stunning and user-friendly websites using modern web technologies such as HTML, CSS, and JavaScript. I also have experience as a social media administrator, where I manage and update various social media platforms for different purposes, such as promoting brands, products, or causes. I have a strong background in advertising and marketing, as well as image and video editing, which helps me to create engaging and appealing content for my clients and audiences. Besides being a web developer and a social media administrator, I'm also passionate about helping animals. I'm the chairman of the board of a non-profit social welfare organization "FELIDA" that aims to improve the lives of animals in need. I have successfully developed and implemented several projects funded by the European Social Fund that focus on enhancing social inclusion, education, and employment for people and animals. I enjoy challenges and learning new things in my field of work, and I'm always eager to take on new opportunities and collaborations.
+
+I'm a creative and innovative thinker who is always looking for new and interesting ways to solve problems. I'm also a hard worker and I'm always willing to go the extra mile to get the job done. I'm confident that I can make a positive impact on your company and I look forward to hearing from you soon.
+
+Sincerely,
+Ingars Neija`;
+                    const typingTextElement = document.getElementById('typing-text');
+                    let index = 0;
+
+                    function typeText() {
+                        if (index < text.length) {
+                            typingTextElement.textContent += text[index];
+                            index++;
+                            setTimeout(typeText, 30);
+                        }
+                    }
+
+                    typeText();
+                </script>
+                <!--//kopsavilkums-->
+            </section><!--//sekcija-->
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-briefcase"></i></span>Main
+                    Certificate</h2>
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="certificate-title">Meta Front-End Developer</h3>
+                            <div class="time">August 1, 2023</div>
+                        </div><!--//augšdaļas-rows-->
+                        <div class="company"><img src="assets/images/meta.png" width="10%" height="10%"
+                                alt="meta logo" />
+                            <img src="assets/images/coursera.png" width="10%" height="10%" alt="coursera logo" />
+                        </div>
+                    </div>
+                    <div class="details">
+                        <p>Cascading Style Sheets (CSS), HTML, UI/UX design, React, JavaScript</p>
+                    </div>
+                    <div class="view-certificate">
+                        <a href="assets/images/9_Meta_Coursera_Front_End_Developer_Professional_Certificate.png"
+                            class="certificate-link" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+
+                <section class="section experiences-section">
+                    <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-briefcase"></i></span>My
+                        way to main Certificate</h2>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="certificate-title">[1 / 9] Introduction to Front-End Development</h3>
+                                <div class="time">December 28, 2022</div>
+                            </div><!--//augšdaļas-rows-->
+                            <div class="company"><img src="assets/images/meta.png" width="10%" height="10%"
+                                    alt="meta logo" />
+                                <img src="assets/images/coursera.png" width="10%" height="10%" alt="coursera logo" />
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Web Development Tools, User Interface, Front-End Web Development, HTML and CSS,
+                                Responsive
+                                Web Design,</p>
+                        </div>
+                        <div class="view-certificate">
+                            <a href="assets/images/1_Meta_Coursera_introduction_to_front_end_development_certificate.png"
+                                class="certificate-link" target="_blank">View Certificate</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="certificate-title">[2 / 9] Programming with JavaScript</h3>
+                                <div class="time">January 11, 2023</div>
+                            </div><!--//augšdaļas-rows-->
+                            <div class="company"><img src="assets/images/meta.png" width="10%" height="10%"
+                                    alt="meta logo" />
+                                <img src="assets/images/coursera.png" width="10%" height="10%" alt="coursera logo" />
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Test-Driven Development, JavaScript, Front-End Web Development, Object-Oriented
+                                Programming
+                                (OOP)</p>
+                        </div>
+                        <div class="view-certificate">
+                            <a href="assets/images/2_Meta_Coursera_programming_with_JavaScript_certificate.png"
+                                class="certificate-link" target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="certificate-title">[3 / 9] Version Control</h3>
+                                <div class="time">January 14, 2023</div>
+                            </div>
+                            <div class="company">
+                                <img src="assets/images/meta.png" width="10%" height="10%" alt="meta logo" />
+                                <img src="assets/images/coursera.png" width="10%" height="10%" alt="coursera logo" />
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Linux, Web Development, Bash (Unix Shell), Github, Version Control,</p>
+                        </div>
+                        <div class="view-certificate">
+                            <a href="assets/images/3_Meta_Coursera_Version_Control_certificate.png"
+                                class="certificate-link" target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="certificate-title">[4 / 9] HTML and CSS in depth</h3>
+                                <div class="time">February 6, 2023</div>
+                            </div><!--//augšdaļas-rows-->
+                            <div class="company"><img src="assets/images/meta.png" width="10%" height="10%"
+                                    alt="meta logo" />
+                                <img src="assets/images/coursera.png" width="10%" height="10%" alt="coursera logo" />
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Debugging, User Interface, React (Web Framework), HTML and CSS, JavaScript.</p>
+                        </div>
+                        <div class="view-certificate">
+                            <a href="assets/images/4_Meta_Coursera_HTML_and_CSS_in_depth_certificate.png"
+                                class="certificate-link" target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="certificate-title">[5 / 9] React Basics</h3>
+                                <div class="time">March 22, 2023</div>
+                            </div><!--//augšdaļas-rows-->
+                            <div class="company"><img src="assets/images/meta.png" width="10%" height="10%"
+                                    alt="meta logo" />
+                                <img src="assets/images/coursera.png" width="10%" height="10%" alt="coursera logo" />
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Web Application, Front-End Web Development, React (Web Framework), Application
+                                development,
+                            </p>
+                        </div>
+                        <div class="view-certificate">
+                            <a href="assets/images/5_Meta_Coursera_React_basics_certificate.png"
+                                class="certificate-link" target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="certificate-title">[6 / 9] Advanced React</h3>
+                                <div class="time">May 12, 2023</div>
+                            </div><!--//augšdaļas-rows-->
+                            <div class="company"><img src="assets/images/meta.png" width="10%" height="10%"
+                                    alt="meta logo" />
+                                <img src="assets/images/coursera.png" width="10%" height="10%" alt="coursera logo" />
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Unit Testing, Front-End Web Development, React (Web Framework)
+                            </p>
+                        </div>
+                        <div class="view-certificate">
+                            <a href="assets/images/6_Meta_Coursera_Advanced_React_Certificate.png"
+                                class="certificate-link" target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="certificate-title">[7 / 9] Principles of UX/UI Design</h3>
+                                <div class="time">June 1, 2023</div>
+                            </div><!--//augšdaļas-rows-->
+                            <div class="company"><img src="assets/images/meta.png" width="10%" height="10%"
+                                    alt="meta logo" />
+                                <img src="assets/images/coursera.png" width="10%" height="10%" alt="coursera logo" />
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Web Design, Front-End Web Development, User Experience (UX), Accessibility
+                            </p>
+                        </div>
+                        <div class="view-certificate">
+                            <a href="assets/images/7_Meta_Coursera_Principles_of_UX-UI_Design_Certificate.png"
+                                class="certificate-link" target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="certificate-title">[8 / 9] Front-End Developer Capstone</h3>
+                                <div class="time">July 15, 2023</div>
+                            </div><!--//augšdaļas-rows-->
+                            <div class="company"><img src="assets/images/meta.png" width="10%" height="10%"
+                                    alt="meta logo" />
+                                <img src="assets/images/coursera.png" width="10%" height="10%" alt="coursera logo" />
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>JavaScript, Front-End Web Development, User Interface, React (Web Framework)
+                            </p>
+                        </div>
+                        <div class="view-certificate">
+                            <a href="assets/images/8_Meta_Coursera_Front_End_Developer_Capstone_Certificate.png"
+                                class="certificate-link" target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="certificate-title">[9 / 9] Coding Interview Preparation</h3>
+                                <div class="time">August 1, 2023</div>
+                            </div><!--//augšdaļas-rows-->
+                            <div class="company"><img src="assets/images/meta.png" width="10%" height="10%"
+                                    alt="meta logo" />
+                                <img src="assets/images/coursera.png" width="10%" height="10%" alt="coursera logo" />
+                            </div>
+                        </div>
+                        <div class="details">
+                            <p>Pseudocode, Algorithms, Communication, Data Structure, Computer Science
+                            </p>
+                        </div>
+                        <div class="view-certificate">
+                            <a href="assets/images/10_Meta_Coursera_Coding_Interview_Certificate.png"
+                                class="certificate-link" target="_blank">View
+                                Certificate</a>
+                        </div>
+                    </div>
+
+
+
+                    <script>
+                        const certificateLinks = document.querySelectorAll('.certificate-link');
+                        certificateLinks.forEach(link => {
+                            link.addEventListener('mouseover', (event) => {
+                                const certificateImage = link.getAttribute('href');
+                                const thumbnail = document.createElement('img');
+                                thumbnail.src = certificateImage;
+                                thumbnail.classList.add('thumbnail');
+                                thumbnail.style.display = 'none';
+                                document.body.appendChild(thumbnail);
+                                thumbnail.addEventListener('load', () => {
+                                    thumbnail.style.display = 'block';
+                                    thumbnail.addEventListener('mouseleave', () => {
+                                        thumbnail.remove();
+                                    });
+                                });
+                            });
+                        });
+                    </script>
+
+                </section>
+
+                <section class="skills-section section">
+                    <h2 class="section-title"><span class="icon-holder"><i
+                                class="fa-solid fa-graduation-cap"></i></span>Ratings received for each certificate
+                    </h2>
+                    <div class="skillset">
+                        <div class="item">
+                            <h3 class="level-title">Introduction to Front-End Development</h3>
+                            <div class="progress level-bar">
+                                <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 96%"
+                                    aria-valuenow="96" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">HTML and CSS in depth</h3>
+                            <div class="progress level-bar">
+                                <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 89%"
+                                    aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">Programming with JavaScript</h3>
+                            <div class="progress level-bar">
+                                <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 96%"
+                                    aria-valuenow="96" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">React Basics</h3>
+                            <div class="progress level-bar">
+                                <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 95%"
+                                    aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">Version Control</h3>
+                            <div class="progress level-bar">
+                                <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 91%"
+                                    aria-valuenow="91" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">Advanced React</h3>
+                            <div class="progress level-bar">
+                                <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 94%"
+                                    aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">Principles of UX/UI Design</h3>
+                            <div class="progress level-bar">
+                                <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 82%"
+                                    aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">Front-End Developer Capstone</h3>
+                            <div class="progress level-bar">
+                                <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 88%"
+                                    aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">Coding Interview Preparation</h3>
+                            <div class="progress level-bar">
+                                <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 85%"
+                                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-star"></i></span>In
+                            addition</h2>
+                        <div class="item">
+                            <h3 class="level-title">Photo editing</h3>
+                            <div class="progress level-bar">
+                                <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%"
+                                    aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3 class="level-title">Video editing</h3>
+                            <div class="progress level-bar">
+                                <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section><!--//skills-section-->
+
+        </div><!--//main-body-->
+    </div>
+
+    <footer class="footer">
+        <div class="text-center">
+
+            <small class="copyright">Designed with <i class="fa-solid fa-heart"></i> by <a href="http://kas.id.lv"
+                    target="_blank">QvarcY</a> / Ingars Neija Portfolio</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+</body>
+
+</html>
